@@ -1,0 +1,44 @@
+{
+  "sample_size": 20,
+  "category_accuracy_pct": 50.0,
+  "order_extraction_accuracy_pct": 43.75,
+  "avg_latency_ms": 12136.8,
+  "total_errors": 10,
+  "error_examples": [
+    {
+      "ticket_id": "TK-245732",
+      "message": "dear sir/madam,\n\ni am writing with reference to my order of pulse 2 buds (vr908522) placed on 09/10.",
+      "ground_truth_category": "Billing & Payments",
+      "predicted_category": "App & Firmware",
+      "reason": "Category mismatch / ambiguity"
+    },
+    {
+      "ticket_id": "TK-241619",
+      "message": "received damaged product, VR881727, please advise",
+      "ground_truth_category": "Returns & Refunds",
+      "predicted_category": "Other",
+      "reason": "Category mismatch / ambiguity"
+    },
+    {
+      "ticket_id": "TK-246381",
+      "message": "Very pooor quality. This is regarding Nexa 2. pairing is not working. I alraedy tried on another pho",
+      "ground_truth_category": "App & Firmware",
+      "predicted_category": "Returns & Refunds",
+      "reason": "Category mismatch / ambiguity"
+    },
+    {
+      "ticket_id": "TK-249040",
+      "message": "Dear Sir/Madam,\n\nI am writing w/ reference to my order of pulse 2 buds (VR904555) placed on Septembe",
+      "ground_truth_category": "Warranty & Repair",
+      "predicted_category": "Returns & Refunds",
+      "reason": "Category mismatch / ambiguity"
+    },
+    {
+      "ticket_id": "TK-251918",
+      "message": "hi vireo support, i bought the pulse 2 earbuds on april 12. product arrived damaged. i refused nothi",
+      "ground_truth_category": "Delivery & Shipping",
+      "predicted_category": "Returns & Refunds",
+      "reason": "Category mismatch / ambiguity"
+    }
+  ]
+}
